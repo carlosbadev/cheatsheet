@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>CODECADEMY'S CHEAT SHEET</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header><h1>THE ULTIMATE CHEATSHEET</h1></header>
+    <h2><span class="orange-bold"> HTML BASICS:</span> Tables</h2>
+    <table class="hover-table">
+        <thead>
+            <th class="property">Property
+            </th>
+            <th class="description">
+                Description
+            </th>
+        </thead>
+        <tbody>
+            <tr class="zoom">
+                <td class="bold">&lt;table&gt;</td>
+                <td>This element creates the base for a table</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;thead&gt;</td>
+                <td>This element is used for syntax: describes a part of the table that is a heading</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;tbody&gt;</td>
+                <td>This element is used for syntax: describes a part of the table that is the body of the table</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;tfoot&gt;</td>
+                <td>This element is used for syntax: describes a part of the table that is the footer of the table</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;th&gt;</td>
+                <td>This element creates creates a heading inside the table heading</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;tr&gt;</td>
+                <td>This element creates rows inside the table</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;td&gt;</td>
+                <td>This element allows you to add data to your table row </td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;colspan&gt;</td>
+                <td>This attribute allows the table data to occupate a determined number of columns</td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">&lt;rowspan&gt;</td>
+                <td>This attribute allows the table data to occupate a determined number of rows </td>
+            </tr>
+        </tbody>
+    </table>
+    <h2><span class="orange-bold">CSS BASICS:</span> Position</h2>
+    <table class="hover-table">
+        <thead>
+            <th class="property">Property
+            </th>
+            <th class="description">
+                Description
+            </th>
+        </thead>
+        <tbody>
+            <tr class="zoom">
+                <td class="bold">static</td>
+                <td>The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value. </td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">relative</td>
+                <td>The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static. </td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">absolute</td>
+                <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its closest positioned (meaning not static) ancestor (if any) or to the initial containing block. Its final position is determined by the values of top, right, bottom, and left. </td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">fixed</td>
+                <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its initial containing block and always stays in the same place even if the page is scrolled. Its final position is determined by the values of top, right, bottom, and left. </td>
+            </tr>
+            <tr class="zoom">
+                <td class="bold">sticky</td>
+                <td>The element is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport, then it "sticks" in place (like position: fixed). </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
